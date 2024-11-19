@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.aitestpro.dao.TestCaseMapper">
+  <resultMap id="BaseResultMap" type="org.example.aitestpro.entity.TestCase">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="case_title" jdbcType="VARCHAR" property="caseTitle" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="method" jdbcType="VARCHAR" property="method" />
+    <result column="step" jdbcType="VARCHAR" property="step" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="case_data" jdbcType="VARCHAR" property="caseData" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>
