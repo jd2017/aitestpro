@@ -1,9 +1,14 @@
-server:
-  port: 8080
+#server:
+#  port: 8080
+
 spring:
+  application:
+    name: aipro-service
+  profiles:
+    active: dev
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/aitestpro?characterEncoding=UTF-8&useUnicode=true&nullCatalogMeansCurrent=true
-    password: jdbairoot
+    url: jdbc:mysql://${aipro.db.host}:3306/aitestpro?characterEncoding=UTF-8&useUnicode=true&nullCatalogMeansCurrent=true
+    password: ${aipro.db.pwd}
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
 mybatis:

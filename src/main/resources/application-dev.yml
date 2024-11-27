@@ -1,0 +1,8 @@
+# dev \u73AF\u5883\u53D8\u91CF
+server:
+  port: 8080
+
+aipro:
+  db:
+    host: mysql2
+    pwd: jdbairoot

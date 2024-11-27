@@ -1,0 +1,8 @@
+# qa \u73AF\u5883\u53D8\u91CF
+server:
+  port: 8081
+
+aipro:
+  db:
+    host: 127.0.0.1
+    pwd: jdbairoot
